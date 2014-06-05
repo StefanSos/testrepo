@@ -11,7 +11,7 @@
     <scm>
         <connection>scm:git:git@github.com:StefanSos/testrepo.git</connection>
         <developerConnection>scm:git:git@github.com:StefanSos/testrepo.git</developerConnection>
-        <url>git@github.com:StefanSos/testrepo.git</url>
+        <url>https://github.com/StefanSos/testrepo.git</url>
     </scm>
 
     <properties>
