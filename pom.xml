@@ -68,7 +68,8 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <!-- tagBase>${tag.base}</tagBase -->
-                    <tagNameFormat>@{project.version}</tagNameFormat>
+                    <!-- tagNameFormat>@{project.version}</tagNameFormat -->
+                    <tag>${releaseVersion}</tag>
                 </configuration>
             </plugin>
 
