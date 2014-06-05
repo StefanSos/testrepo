@@ -9,13 +9,14 @@
     <name>sos-release-maven-plugin</name>
 
     <scm>
-        <connection>scm:svn:http://subversion.sos/svn/sos/java.sources/tags/administration/maven/sos-release-maven-plugin</connection>
-        <developerConnection>scm:svn:http://subversion.sos/svn/sos/java.sources/trunk/administration/maven/sos-release-maven-plugin</developerConnection>
+        <connection>scm:git:git@github.com:StefanSos/testrepo.git</connection>
+        <developerConnection>scm:git:git@github.com:StefanSos/testrepo.git</developerConnection>
+        <url>https://github.com/testrepo</url>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tag.base>http://subversion.sos/svn/sos/java.sources/tags/administration/maven/${project.artifactId}</tag.base>
+				<!-- tag.base>http://subversion.sos/svn/sos/java.sources/tags/administration/maven/${project.artifactId}</tag.base -->
     </properties>
 
     <dependencies>
@@ -65,7 +66,7 @@
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
-                    <tagBase>${tag.base}</tagBase>
+                    <!-- tagBase>${tag.base}</tagBase -->
                     <tagNameFormat>@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
