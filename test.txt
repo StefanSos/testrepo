@@ -1,3 +1,4 @@
 my test
 changes in myBranch1
 commit 1
+commit 2
